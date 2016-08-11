@@ -98,7 +98,7 @@ for k,v in sorted(jarmu.items(), key=lambda k:k):
     if h == 0:
         lista.append(k)
     lista.append(lista[h]+timedelta(minutes=5))
-print(lista)
+#print(lista)
 with open("viszgalt.txt", "wt", encoding="utf-8") as g:
     for a in lista:
         for k,v in sorted(jarmu.items(), key=lambda k:k):
