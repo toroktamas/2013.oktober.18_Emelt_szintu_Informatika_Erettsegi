@@ -23,7 +23,7 @@ with open("jarmu.txt", "rt", encoding="utf-8") as f:
         for a in sor[3]:
             jarmu[ido]['rendszam lista'].append(a)
         
-print(jarmu)
+#print(jarmu)
 print("2. feladat")
 """Meg kell hatarozni hogy hany orat dolgoztak a rendorok """
 munka = list(set([k.hour for k in jarmu.keys()]))
